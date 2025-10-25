@@ -16,7 +16,7 @@ local function CreateTween(obj, props, time, style, direction)
 end
 
 local function IsMobile()
-	return true
+	return UserInputService.TouchEnabled and not U
 end
 
 -- Minimalist Dark Color Scheme (White, Black, Grays)
