@@ -1671,3 +1671,5 @@ function Library:CreateInput(section, options)
 	
 	return input
 end
+
+return Library 
